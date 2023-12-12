@@ -51,8 +51,8 @@ export default function App() {
   }
 
   return (
-    <main className="w-full min-h-screen grid place-content-center">
-      <section className="flex flex-col space-y-4 w-[450px] max-w-full border border-black p-4">
+    <main className="w-full min-h-screen my-16 p-4">
+      <section className="flex flex-col space-y-4 max-w-[450px] mx-auto w-full border border-black p-4">
         <h1 className="text-black text-3xl font-bold">TodoApp</h1>
         <Input onAddTodo={handleAddTodo} />
         <Indicators todos={todos} />

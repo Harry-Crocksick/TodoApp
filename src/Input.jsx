@@ -17,10 +17,10 @@ export default function Input({ onAddTodo }) {
         type="text"
         name="text"
         value={text}
-        className="flex-1 border border-black p-1.5 h-full"
+        className="flex-1 border border-black p-1"
         onChange={(e) => setText(e.target.value)}
       />
-      <button type="submit" className="bg-black p-1.5" onClick={handleClick}>
+      <button type="submit" className="bg-black p-1" onClick={handleClick}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
